@@ -119,7 +119,7 @@ const UploadImage = () => {
           throw new Error(`${image.name} is not a valid image file`);
         }
         if (image.size > MAX_FILE_SIZE) {
-          throw new Error(`${image.name} exceeds the 10MB size limit`);
+          throw new Error(`${image.name} exceeds the 50MB size limit`);
         }
         const fileName = `${Date.now()}-${image.name}`;
         try {
