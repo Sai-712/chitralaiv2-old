@@ -1,7 +1,7 @@
 import { S3Client } from '@aws-sdk/client-s3';
 import { RekognitionClient } from '@aws-sdk/client-rekognition';
 
-export const region = import.meta.env.VITE_AWS_REGION || 'ap-south-1';
+export const region = import.meta.env.VITE_AWS_REGION || 'us-east-1';
 
 // Development mode check
 export const isDevelopment = import.meta.env.DEV || false;
